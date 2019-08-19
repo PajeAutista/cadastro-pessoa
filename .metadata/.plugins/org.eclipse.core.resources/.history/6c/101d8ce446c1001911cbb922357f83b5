@@ -1,0 +1,25 @@
+public class Main
+
+{
+public static void main(String[] args) {
+
+
+//Criando objeto com construtor vazio:
+Pessoa pessoa1 = new Pessoa(1, "Carol", 23, "Masculino");
+
+//Criando objeto com parâmetros:
+Pessoa pessoa2 = new Pessoa(2, "João", 20, "Femenino");
+
+pessoa2.setNome("José");
+
+
+System.out.println("O nome da pessoa 1 é " + pessoa1.getNome() + ".");
+System.out.println("A idade da pessoa 1 é " + pessoa1.getIdade() + ".");
+
+System.out.println("O nome da pessoa 2 é " + pessoa2.getNome() + ".");
+
+
+
+
+}
+}
